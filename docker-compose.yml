@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  watchtower:
+    build: .
+    image: mrcapslock/watchtower
+    container_name: watchtower
+    restart: unless-stopped
+    env_file: .env
+    depends_on:
+      - redis
+
+  redis:
+    image: redis
+    container_name: redis
+    restart: unless-stopped
+    volumes:
+      - ./data:/data/db

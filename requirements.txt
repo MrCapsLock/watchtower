@@ -1,0 +1,7 @@
+wheel
+pyrogram
+tgcrypto
+redis
+asyncio
+uvloop
+apscheduler
