@@ -28,4 +28,4 @@ $ cp config.ini.sample config.ini
 ```
 
 ## License
-[GPL-3.0 and later](https://github.com/MrCapsLock/watchtower/blob/master/LICENSE)
+[GPL-3.0](https://github.com/MrCapsLock/watchtower/blob/master/LICENSE)
